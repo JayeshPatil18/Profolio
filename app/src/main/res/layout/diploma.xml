@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ffff">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/diploma" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            app:cardBackgroundColor="#FF8400"
+            app:cardCornerRadius="20dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/box_gradient"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:shadowRadius="100"
+                android:text="Diploma"
+                android:textColor="#FFFFFF"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="213dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            app:cardCornerRadius="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="215dp"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="I have currently doing my computer engineering diploma in government polytechnic nandurbar. I have got 88% in last semester. In 2 years of diploma I learn many more. In my early days of diploma I had not interest in coding but after first semester. I  am getting interested in coding and I realize that this gone be my passion. It is not hard. If you put your time and dedication into it, it can be fun. You just have to focus on your programming skills. Yes, it is easy to study and very interesting with lots of future scope in your job career."
+                android:textColor="#FFFFFF"
+                android:textSize="15dp"
+                android:background="@drawable/box_gradient"/>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</LinearLayout>

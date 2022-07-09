@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ffff">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="183dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/metric" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:outlineSpotShadowColor="@color/black"
+            app:cardCornerRadius="20dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/box_gradient"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:shadowColor="#000000"
+                android:text="Metric"
+                android:textColor="#FFFFFF"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:outlineSpotShadowColor="@color/black"
+            app:cardBackgroundColor="#FF8400"
+            app:cardCornerRadius="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/box_gradient"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="I have completed my 10th from shet V K shaha vidya mandir school which is located at shahada. I have got 82.86% in SSC exam. In school I learn many things but science is my favorite. I do some extra curricular activities. After 10th I decided to take diploma in computer engineering"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</LinearLayout>
